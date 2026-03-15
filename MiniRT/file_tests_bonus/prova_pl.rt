@@ -1,0 +1,15 @@
+A 	0.1 			255,255,255
+
+C  10,10.0,50.0 		0.0,0.0,-1.0 		60
+
+L 10.0,10.0,50.0 		0.7 		255,255,255
+
+# Plane di fondo (light blue) posizionato dietro il pupazzo
+#vedere anche come viene comentando questo
+pl 0.0,0.0,-8.0 0.0,0.0,1.0 173,216,230
+
+# Piano di appoggio (grigio)
+pl 0.0,-1.0,0.0 0.0,1.0,0.0 200,200,200
+
+# Sfera inferiore (più grande)
+sp 0.0,0.0,20 		20.0 		245,39,118

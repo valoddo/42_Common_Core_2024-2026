@@ -1,0 +1,46 @@
+
+
+# settare il background a un colore scuro, es: 0x00E6D8FF
+# fare una finestra con dimensioni piu grandi, come  1600 900
+
+A 0.7 255,255,255
+
+# Camera inclinata e laterale, vista diagonale verso il centro
+C 7.0,10.0,50.0 0,0,-1 90
+
+# Luce nel centro (Sole)
+#L 0.0,0.0,0.0 0.8 255,240,200
+L 2.0,8.0,3.0 1 255,240,200
+
+
+# ----------------
+# Sole
+sp 0.0,0.0,0.0 8.0 255,200,0
+
+# ----------------
+# Pianeti (disposti su orbite irregolari per dare senso di profondità)
+
+# Mercurio
+sp 9.0,0.5,2.5 1.2 105,105,105
+
+# Venere
+sp -12.0,-0.5,3.5 1.7 218,165,32
+
+# Terra
+sp 15.0,2.0,-6.0 1.8 70,130,180
+
+# Marte
+sp -18.0,-1.0,-8.0 1.6 188,39,50
+
+# Giove
+sp 25.0,2.0,8.0 3.2 210,105,30
+
+# Saturno con anelli
+sp -30.0,-1.2,-5.0 2.7 210,180,140
+cy -30.0,-1.2,-5.0 0.0,1.0,0.0 4.9 0.15 205,170,120
+
+# Urano
+sp 37.0,1.0,-6.0 1.8 173,216,230
+
+# Nettuno
+sp -34.0,-0.1,6.0 1.7 0,0,139

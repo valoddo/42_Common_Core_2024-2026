@@ -1,0 +1,25 @@
+# MiniRT test scene — scaled ×10 for move_step = 10
+# Sphere on a plane + cylinder beside it
+# Three differently colored lights positioned to show shadow overlap
+
+# Ambient light
+A 0.2 255,255,255                
+
+# Camera: slightly above and behind, facing forward
+C 0,10,-70  0,0,1  50              
+
+# Red light (left-top)
+L -30,50,-20  0.8  255,0,0 
+# Green light (right-top)         
+L  30,50,-20  0.8  0,255,0          
+# Blue light (top-back)
+L   0,80,30   0.8  0,0,255          
+
+# Plane: acts as the ground
+pl 0,-10,0  0,1,0  200,200,200    
+
+# White sphere in center
+sp -10,5,50  20.0  255,255,255       
+
+# Blue-tinted cylinder beside sphere
+cy 20,0,30  0,1,0  10.0  40.0  35,117,166  
