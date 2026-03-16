@@ -1,5 +1,6 @@
 # 🖥️ CPP Modules  
-Language 42  
+![Language](https://img.shields.io/badge/language-C++-blue)
+![42](https://img.shields.io/badge/school-42-black) 
 
 A comprehensive overview of the C++ modules in the 42 curriculum, summarizing all key concepts and projects.
 
